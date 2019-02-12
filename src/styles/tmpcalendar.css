@@ -1,0 +1,130 @@
+html {
+		background-color:#ECECEC;
+		background-image:url('../images/321.jpg');
+		background-position:cover;
+}
+
+body {
+	width:90%;
+	margin:0 auto 0 auto;
+	font-family: Arial,Verdana,Tahoma,sans-serif;
+	#background-image:url('../images/321.jpg');
+	#background-color:#FFFFFF;
+	#background-position:cover;
+}
+
+.Calendar {
+	display:inline-block;
+	width: 1050px;
+	#background-color:rgba(27,19,165,0.4);
+	#border:2px solid #824B4B;
+	#border-radius:15px;
+	#box-shadow:5px 5px 10px #000000;
+	padding:5px 5px 5px 5px;
+	margin:10px;
+}
+
+.View,.brigNum {
+	display:inline-block;
+	#width:80px;
+	height:15px;
+	padding:5px 5px 5px 5px;
+	margin:0px;
+	font-size:14px;
+	text-align:center;
+	color:#000000;
+	background-image: -o-linear-gradient(bottom, #0C6CF8, #C1DCFF);
+	border:1px solid #0200FF;
+	border-radius:5px 5px 0 0;
+}
+
+.View:hover, .brigNum:hover {
+	cursor:pointer;
+	background-image: -o-linear-gradient(top, #0C6CF8, #C1DCFF);
+}
+
+.calAwerall {
+	display:inline-block;
+	width:80px;
+	height:25px;
+	font-size:12px;
+	text-align:center;
+	padding:2px;
+	margin:0px;
+	border:1px solid #371F1F;
+	color:#392D2D;
+	background-image: -o-linear-gradient(bottom, #919191, #CBCBCB);
+	border-radius:5px;
+}
+
+.calDelete {
+	display:inline-block;
+	width:25px;
+	height:25px;
+	font-size:12px;
+	text-align:center;
+	padding:2px;
+	margin:0px;
+	border:1px solid #824B4B;
+	color:#FFFFFF;
+	background-image: -o-linear-gradient(bottom, #600606, #FF0000);
+	border-radius:5px;
+}
+
+.calDelete:hover{
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.calDay,.nullDay,.calInputDay,.calFullDay,.calSubDay {
+	display:inline-block;
+	width:25px;
+	height:25px;
+	font-size:12px;
+	text-align:center;
+	padding:2px;
+	margin:0px;
+	border:1px solid #371F1F;
+	border-radius:5px;
+}
+
+.calSubDay{
+	background-color:#F2FF00;
+	border:1px solid #FF0081;
+}
+
+.nullday {
+	opacity:0;
+}
+
+.calDay {
+	color:#FF3300;
+	background-color:#FFA80F;
+}
+
+.calInputDay {
+	color:gray;
+}
+
+.calInputDay:hover,.calFullDay:hover,.calSubDay:hover{
+	cursor:pointer;
+	border:2px solid #EB0669;
+}
+
+.calFullDay {
+	color:#000000;
+	font-weight: bold;
+	background-color:#23E823;
+}
+
+.Calendar p {
+	display:inline-block;
+	margin:0;
+	padding:5px 5px;
+	#background-color:rgba(27,19,165,0.4);
+	background-image: -o-linear-gradient(bottom, #8A6600, #FFFF00);
+	border:2px solid #824B4B;
+	border-radius:0 5px 5px 5px;
+	box-shadow:5px 5px 10px #000000;
+}
+

@@ -1,0 +1,94 @@
+html {
+		background-color:#ECECEC;
+}
+
+body {
+	width:80%;
+	margin:0 auto 0 auto;
+	font-family: Arial,Verdana,Tahoma,sans-serif;
+	#background-image:url('../images/321.jpg');
+	background-color:#FFFFFF;
+	#background-position:cover;
+}
+
+.Calendar {
+	display:inline-block;
+	width: 270px;
+	background-color:rgba(27,19,165,0.4);
+	border:2px solid #824B4B;
+	border-radius:15px;
+	box-shadow:5px 5px 10px #000000;
+	padding:5px 5px 5px 5px;
+	margin:10px;
+}
+
+.View,.brigNum,.calAwerall,.calDelete {
+	display:inline-block;
+	width: 260px;
+	margin:2px;
+	padding:2px;
+	font-size:14px;
+	text-align:center;
+	color:#000150;
+	background-image: -o-linear-gradient(bottom, #919191, #CBCBCB);
+	border:2px solid #824B4B;
+	border-radius:5px;
+}
+
+.calDelete {
+	color:#FFFFFF;
+	background-image: -o-linear-gradient(bottom, #8A0A0A, #FF0505);
+}
+
+.calDelete:hover{
+	cursor:pointer;
+	background-image: -o-linear-gradient(top, #8A0A0A, #FF0505);
+}
+
+.View:hover,.brigNum:hover,.calAwerall:hover {
+	cursor:pointer;
+	background-image: -o-linear-gradient(top, #919191, #CBCBCB);
+}
+
+
+
+.calDay,.nullDay,.calInputDay,.calFullDay,.calSubDay {
+	display:inline-block;
+	width:30px;
+	height:30px;
+	font-size:14px;
+	text-align:center;
+	padding:2px;
+	margin:2px;
+	border:1px solid #371F1F;
+	border-radius:5px;
+}
+
+.calSubDay{
+	background-color:#F2FF00;
+	border:1px solid #FF0081;
+}
+
+.nullday {
+	opacity:0;
+}
+
+.calDay {
+	color:#FF3300;
+	background-color:#FFA80F;
+}
+
+.calInputDay {
+	color:gray;
+}
+.calInputDay:hover,.calFullDay:hover,.calSubDay:hover{
+	cursor:pointer;
+	border:2px solid #EB0669;
+}
+
+.calFullDay {
+	color:#000000;
+	font-weight: bold;
+	background-color:#23E823;
+}
+

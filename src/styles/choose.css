@@ -1,0 +1,96 @@
+body {
+	font-family: Times;
+	background-image:url('../images/321.jpg');
+	background-position:cover;
+}
+
+.chooseSpec,.chooseGroup, .chooseDate {
+	display:block;
+	position: absolute;
+	padding: 10px;
+	overflow: auto;
+	top:10%;
+	left:10%;
+	width:80%;
+	#height:80%;
+	background-color:#535664;
+	border: 2px solid #FFFFFF;
+	border-radius:15px;
+	box-shadow:5px 5px 10px black;
+	#opacity:0.4;
+}
+
+.chooseSpec p,.chooseGroup p, .chooseDate p{
+	display:block;
+	color:white;
+	font-size: 30px;
+	text-align:center;
+	font-weight:bold;
+	text-shadow:3px 3px 10px black;
+}
+
+.cGroup {
+	display:inline-block;
+	background-image: -o-linear-gradient(bottom, #A97C0B, #FFB702);
+	border: 2px solid white;
+	width:100px;
+	height:100px;
+	padding:2px;
+	margin:5px 5px;
+	color:black;
+	font-size: 30px;
+	text-align:center;
+	font-weight:bold;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px black;
+}
+
+.cMonth {
+	display:inline-block;
+	background-image: -o-linear-gradient(bottom, #A97C0B, #FFB702);
+	border: 2px solid #2B1F1F;
+	width:300px;
+	height:50px;
+	padding:2px;
+	margin:5px 5px;
+	color:black;
+	font-size: 20px;
+	text-align:center;
+	font-weight:bold;
+	border-radius: 10px;
+	box-shadow:5px 5px 5px black;
+}
+
+.cSpec {
+	display:block;
+	padding:10px;
+	margin:5px 5px;
+	color:black;
+	font-size: 20px;
+	text-align:center;
+	font-weight:bold;
+	background-image: -o-linear-gradient(bottom, #919191, #CBCBCB);
+	border: 1px solid #5C5C5C;
+	border-radius:5px;
+	box-shadow: 5px 5px 10px #000000;
+	overflow:auto;
+}
+
+.cSpec:hover{
+	cursor:pointer;
+	background-image: -o-linear-gradient(top,#6E6464, #919191);
+	box-shadow:2px 2px 2px black;
+}
+
+
+.cMonth:hover,.cGroup:hover{
+	cursor:pointer;
+	border:2px solid #FF0083;
+	background-image: -o-linear-gradient(top, #A97C0B, #FFB702);	
+	box-shadow:2px 2px 2px black;
+}
+
+#sendingForm, #myTree {
+	display:none;
+}
+

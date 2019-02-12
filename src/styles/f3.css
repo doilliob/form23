@@ -1,0 +1,18 @@
+ .mainTable {
+	margin:40px auto 10px auto;
+	padding:0px;
+	border-collapse:collapse;
+ }
+
+.mainTable, .mainTable th, .mainTable td {
+	border: 1px solid #000000;
+	text-align:center;
+ }
+ 
+ .mainTable th, .mainTable td {
+	padding:2px 10px;	
+ }
+
+.groupNameCell {
+	text-align:center;
+}

@@ -1,0 +1,266 @@
+div:hover {
+	cursor:pointer;
+}
+
+.Settings {
+			display:none;
+}		
+
+.lesson {
+	display:block;
+}
+
+.lessonName {
+	display:inline-block;
+	width:90%;
+	#height:30px;
+	margin:10px 5px 0px 5px;
+	padding:10px;
+	font-size:25px;
+	color:#FFFFFF;
+	text-shadow:1px 1px 3px #000000;
+	text-decoration:underline;
+	text-align:left;
+	#background-image:-o-linear-gradient(bottom, #8B5F09, #FFCF0A);
+	#border:1px solid #000000;
+	#border-radius:10px;
+}
+
+.lessonName:hover {
+	cursor:pointer;
+	#background-image:-o-linear-gradient(top, #8B5F09, #FFCF0A);
+}
+
+.cAddTeacher, .cDelLesson,.cAddCalendar,.cDelTeacher {
+	display:inline-block;
+	opacity:0;
+	width: 250px;
+	margin:0px 5px 5px 5px;
+	padding:0px;
+	font-size:12px;
+	text-align:center;
+	#background-image:-o-linear-gradient(bottom, #666363, #B8B3B3);
+	#border:1px solid #000000;
+	#border-radius:0px 0px 5px 5px;
+}
+
+
+
+.teacher{
+	display:block;
+	padding:2px 2px 2px 2px;
+	margin-left:50px;
+}
+
+.teacher:hover .cAddCalendar,.teacher:hover .cDelTeacher {
+	opacity:0.8;
+}
+
+.lesson:hover .cAddTeacher,.lesson:hover .cDelLesson {
+	opacity:0.8;
+}
+
+.teacherName {
+	display:block;
+	width:70%;
+	height:25px;
+	text-align:left;
+	font-size:20px;
+	color:#ffffff;
+	text-shadow:2px 2px 2px #000000;
+	#border:1px solid #000000;
+	#border-radius:10px 10px 0 0;
+	margin: 10px 5px 0px 5px;
+	padding: 5px 5px 5px 10px;
+	#background-image:-o-linear-gradient(bottom, #075407, #009A00);
+}
+
+.teacherName:hover {
+	cursor:pointer;
+	#background-image:-o-linear-gradient(top, #075407, #009A00);
+}
+
+.Selector {
+	display:none;
+}
+
+.Selector:hover{
+	cursor:pointer;
+	color:#FF0000;
+}
+
+.teacher a {
+	display:inline-block;
+	width:40%;
+}
+
+.EmptyCalendar{
+	display:block;
+	position:absolute;
+	top:100px;
+	left:100px;
+	border:1px solid black;
+}
+
+fieldset {
+	#border:1px solid #ffffff;
+	min-height:300px;
+}
+
+.SelectTeacherForm{
+	display:block;
+	position:absolute;
+	top:200px;
+	left:100px;
+	padding:30px;
+	background-color:gray;
+	border:1px solid black;
+}
+
+.AddCalendarForm {
+	display:block;
+	position:absolute;
+	top:200px;
+	left:200px;
+	padding:30px;
+	background-color:gray;
+	border:1px solid black;
+}
+
+
+.Cloud {
+	display:block;
+	position:absolute;
+	width:30px;
+	height:30px;
+	font-size:18px;
+	color:#FFFFFF;
+	padding:10px;
+	border:2px solid #F81406;
+	background-color:#FF8E08;
+	border-radius:20px;
+}
+
+.SubCloud {
+	display:block;
+	position:absolute;
+	height:30px;
+	font-size:18px;
+	color:#FFFFFF;
+	padding:10px;
+	border:2px solid #F81406;
+	background-color:#FF8E08;
+	border-radius:20px;
+}
+
+.HoursEditForm, .SelectTeacherForm, .AddCalendarForm{
+	display:block;
+	width:330px;
+	position:absolute;
+	top:200px;
+	left:100px;
+	padding:30px;
+	#background-color:#BFBFBF;
+	background-image:-o-linear-gradient(bottom, #7A7070, #E5E5E5);
+	border:2px solid #000000;
+	box-shadow:5px 5px 10px #000000;
+	border-radius:20px;
+}
+
+
+.HoursEditForm > .sHour {
+	display:inline-block;
+	height:50px;
+	width:50px;
+	margin:2px 2px 10px 2px;
+	padding:10px 2px 2px 2px;
+	font-size:30px;
+	text-align:center;
+	color:#000000;
+	background-image:-o-linear-gradient(bottom, #453E3E, #BFBFBF);
+	border:2px solid #000000;
+	border-radius:20px;
+}
+
+.HoursEditForm > .sHour:hover {
+	cursor:pointer;
+	color:#FF0000;
+	font-weight:bold;
+	#background-image:-o-linear-gradient(top, #453E3E, #BFBFBF);
+}
+
+
+
+.HoursEditForm > a {
+	display:inline-block;
+	height:30px;
+	width:150px;
+	margin:20px 5px 2px 2px;
+	padding:5px 2px 2px 2px;
+	font-size:20px;
+	text-align:center;
+	text-decoration:none;
+	color:#000000;
+	background-image:-o-linear-gradient(bottom, #615905, #FFFF00);
+	border:1px solid #000000;
+	border-radius:20px;
+}
+
+.HoursEditForm > select {
+	font-size:16px;
+}
+
+.HoursEditForm > a:hover {
+	cursor:pointer;
+	background-image:-o-linear-gradient(top,#615905, #FFFF00);
+}
+
+.addToDBLessonForm {
+	width:600px;
+	border:1px solid #000000;
+	background-color:#BFBFBF;
+	box-shadow:5px 5px 10px #000000;
+	border-radius:20px;
+	padding:10px;
+}
+
+.addToDBLessonForm input {
+	width:580px;
+	margin:5px;
+	border:1px solid #5050B6;
+	color:#000000;
+	font-size:16px;
+	background-color:#FFFFFF;
+	font-weight:bold;
+}
+
+.addToDBLessonForm #Add {
+	margin:10px;
+}
+
+.addToDBLessonForm #Close {
+	margin:10px;
+}
+
+.SelectTeacherForm select, .AddCalendarForm select {
+	margin:0 0 10px 0;
+}
+
+.newLesson #Add, .addToDBLesson, .SelectTeacherForm #Select, .SelectTeacherForm #Close, .AddCalendarForm #Add, .AddCalendarForm #Close{
+	display:inline-block;
+	width: 250px;
+	margin:0px 5px 5px 5px;
+	padding:2px;
+	font-size:18px;
+	text-align:center;
+	background-image:-o-linear-gradient(bottom, #666363, #B8B3B3);
+	border:1px solid #000000;
+	border-radius:10px 10px 10px 10px;
+}
+
+.newLesson #Add:hover,  .addToDBLesson:hover, .SelectTeacherForm #Select:hover, .SelectTeacherForm #Close:hover, .AddCalendarForm #Add:hover, .AddCalendarForm #Close:hover{
+	cursor:pointer;
+	border:1px solid #A020F0;
+	color: #FFFF00;
+	#background-image:-o-linear-gradient(top, #666363, #B8B3B3);
+}
